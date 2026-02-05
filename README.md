@@ -50,3 +50,18 @@ Backend (`backend/.env`):
 Frontend (`frontend/.env`):
 
 - `VITE_API_BASE_URL`
+
+## Updating the Repo (Git Pull)
+
+If this repo has a remote configured, you can update it with:
+
+```bash
+git pull
+```
+
+If no remote is set yet, add one first and then pull:
+
+```bash
+git remote add origin <REMOTE_URL>
+git pull origin main
+```
